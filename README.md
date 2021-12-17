@@ -26,40 +26,40 @@
 <p><em>The app must pull data from a CSV file into a mongo DB database. Python module must be used to create read update and delete the database. This database must also be password-protected. A separate file must have the functionality of retrieving the data from Mongo Via the python CRUD module to perform actions on that data. The data must be put into a pandas data frame which is a python library. A user interface must be made, and that user interface must have the logo of the company with a hyperlink, the name of the creator, user interaction buttons to perform sorting on the data, a database is then displayed on the Ui of the app, from my displayed data a chart along side</em> <em>a map must display the filter data.</em></p>
 
 <figure>
-<img src="Screen%20Shot%202021-12-12%20at%203.26.10%20AM.png" alt="" />
+<img images="s1.png" alt="" />
 </figure>
 
 <figure>
-<img src="Screen%20Shot%202021-12-12%20at%203.26.28%20AM.png" alt="" />
+<img src="s2.png" alt="" />
 </figure>
 
 <figure>
-<img src="Screen%20Shot%202021-12-12%20at%203.27.32%20AM.png" alt="" />
+<img src="s3.png" alt="" />
 </figure>
 
 <figure>
-<img src="Screen%20Shot%202021-12-12%20at%203.27.44%20AM.png" alt="" />
+<img src="s4.png" alt="" />
 </figure>
 
 <figure>
-<img src="Screen%20Shot%202021-12-12%20at%203.48.25%20AM.png" alt="" />
+<img src="s5.png" alt="" />
 </figure>
 
 <h2>****_Tools used to achieve functionality.**</h2>
 
-<p><em>Python and mongo DB are the two main resources used. The python libraries are Jupiter</em> <em>plotly</em> <em>Dash, the dash library, dash core components used in most user interface areas that interact with html and other components in python,</em> _plotly <em>express which is used for the chart, dash table which is used for the map.</em> <em>Pandas</em> <em>python library which is used for the data set, pandas python library which is used for the data set and</em> <em>pymongo</em> <em>which is used to communicate with mongo DB.</em></p>
+<p><em>Python and mongo DB are the two main resources used. The python libraries are Jupiter</em> <em>plotly</em> <em>Dash, the dash library, dash core components used in user interface areas that interact with html and other components in python,</em> _plotly <em>express which is used for the chart, dash table which is used for the map.</em> <em>Pandas</em> <em>python library which is used for the data set, pandas python library which is used for the data set and</em> <em>pymongo</em> <em>which is used to communicate with mongo DB.</em></p>
 
 <h2><strong><em>Steps taken to complete the project</em></strong></h2>
 
-<p><em>This was an iterative project required to first develop the mongo DB database by importing the data, then the crud module to interact with that data. There was a lot of testing during this phase to get authentication to work. From there the user interface dashboard was created to display a spreadsheet on a user interface. From there filtering that interface, finally piping that interface data that’s displayed to a map and chart. Testing is done throughout.</em></p>
+<p><em>This was an iterative project required to first develop the mongo DB database by importing the data, then the crud module to interact with that data. There was a lot of testing during this phase to get authentication to work. From their the user interface dashboard was created to display a spreadsheet on a user interface. From there filtering that interface, finally piping that interface data that’s displayed to a map and chart. Testing is done throughout.</em></p>
 
 <h2><strong><em>Challenges.</em></strong></h2>
 
-<p><em>Challenges were testing the mongo DB database and authentication because it’s in command line makes it more difficult. Testing the Bungo database against the crud was difficult because of the debugger was difficult to understand in terminal. The biggest difficulty was the @app.callbacks. This information is continually piped into the user interface and is very difficult to the bug, sometimes it just will not run the program at all without any explanation in the debugger.</em> <em>Finally</em> _the biggest challenge for me was putting this on my own system. This works great in Linux, but Mac has a lot of issues with making charts maps even after everything has been downloaded an imported. </p>
+<p><em>Challenges were testing the mongo DB database and authentication because it’s in command line makes it more difficult. Testing the Bungo database against the crud was difficult because of the debugger was difficult to understand in terminal. The biggest difficulty was the @app.callbacks. This information is continually piped into the user interface and is difficult to the bug, sometimes it just will not run the program at all without any explanation in the debugger.</em> <em>Finally</em> _the biggest challenge for me was putting this on my own system. This works great in Linux, but Mac has a lot of issues with making charts maps even after everything has been downloaded an imported. </p>
 
 <h2>Getting Started</h2>
 
-<p><em>This area I’ll show you how to set up the same project. You may want to scroll down to the installation if you do not have everything installed to run this project. You will need</em> <em>mongoDB,</em> <em>python,</em> <em>Jupiter notebook, from Mac you’ll need</em> <em>Xcodecommand line tools. This could run on Mac or Linux,</em> <em>and I have given some examples for both.</em> <em>But primarily the instructions here are for Mac</em> <em>to run it locally. It is relatively simple to run this on Linux. Jupiter notebooks is a great IDE for</em> <em>learning, as</em> <em>you can run specific code snippets.</em> _Another tool you can use as mongo compass. <em>You can also get a free account and run mongo online</em> <em>if you wish.</em> <em>You’re also going to need Dash, with many python libraries to go with.</em></p>
+<p><em>This area I’ll show you how to set up the same project. You may want to scroll down to the installation if you do not have everything installed to run this project. You will need</em> <em>mongoDB,</em> <em>python,</em> <em>Jupiter notebook, from Mac you’ll need</em> <em>Xcodecommand line tools. This could run on Mac or Linux,</em> <em>and I have given examples for both.</em> <em>But the instructions here are for Mac</em> <em>to run it locally. It is simple to run this on Linux. Jupiter notebooks is a great IDE for</em> <em>learning, as</em> <em>you can run specific code snippets.</em> _Another tool you can use as mongo compass. <em>You can also get a free account and run mongo online</em> <em>if you wish.</em> <em>You’re also going to need Dash, with many python libraries to go with.</em></p>
 
 <p>_To start mongo from command line and create an admin account </p>
 
@@ -271,7 +271,7 @@ roles: [ { role: &quot;readWrite&quot;, db: &quot;ACC&quot; },
 
 <p><em>In this whole project you will be using</em> <em>pyMongo.</em> <a href="https://pymongo.readthedocs.io/en/stable/"><em>https://pymongo.readthedocs.io/en/stable/</em></a></p>
 
-<p><em>MongoClient(). Is what is used to make the actual connection. In the below there is no authentication on a simple database with the collection named Emails. It is printing the</em> <em>key :</em> <em>value pair.</em></p>
+<p><em>MongoClient(). Is what is used to make the connection. In the below there is no authentication on a simple database with the collection named Emails. It is printing the</em> <em>key :</em> <em>value pair.</em></p>
 
 <figure>
 <img src="Screen%20Shot%202021-11-19%20at%205.17.25%20AM.png" alt="" />
@@ -290,14 +290,14 @@ roles: [ { role: &quot;readWrite&quot;, db: &quot;ACC&quot; },
 </ol>
 
 <figure>
-<img src="Screen%20Shot%202021-11-20%20at%2010.44.31%20PM.png" alt="" />
+<img src="21.png" alt="" />
 </figure>
 
 <figure>
-<img src="Screen%20Shot%202021-11-23%20at%2012.21.28%20AM.png" alt="" />
+<img src="22.png" alt="" />
 </figure>
 
-<p><em>This is the CVS format you can also import JSON into</em> <em>mongoDB</em></p>
+<p><em>This is the CVS format you can import JSON into</em> <em>mongoDB</em></p>
 
 <h1>Screenshots</h1>
 
@@ -306,41 +306,41 @@ roles: [ { role: &quot;readWrite&quot;, db: &quot;ACC&quot; },
 <h2><strong><em>Import CSV file using mongo DB import.</em></strong> _Notice I’m using mongo compass to verify the amount of documents examined and the query time.</h2>
 
 <figure>
-<img src="Screen%20Shot%202021-11-12%20at%2012.33.23%20AM%202.png" alt="" />
+<img src="23.png" alt="" />
 </figure>
 
 <figure>
-<img src="Screen%20Shot%202021-11-23%20at%2012.17.41%20AM.png" alt="" />
+<img src="24.png" alt="" />
 </figure>
 
 <figure>
-<img src="Screen%20Shot%202021-11-23%20at%2012.26.21%20AM.png" alt="" />
+<img src="25.png" alt="" />
 </figure>
 
 <figure>
-<img src="Screen%20Shot%202021-11-19%20at%201.35.24%20AM.png" alt="" />
+<img src="26.png" alt="" />
 </figure>
 
 <figure>
-<img src="Screen%20Shot%202021-11-23%20at%2012.23.53%20AM.png" alt="" />
+<img src="27.png" alt="" />
 </figure>
 
 <figure>
-<img src="Screen%20Shot%202021-11-23%20at%2012.35.29%20AM.png" alt="" />
+<img src="28.png" alt="" />
 </figure>
 
 <h2><em>Simple index and the Explain function</em>.</h2>
 
 <figure>
-<img src="Screen%20Shot%202021-11-11%20at%202.32.09%20AM.png" alt="" />
+<img src="30.png" alt="" />
 </figure>
 
 <figure>
-<img src="Screen%20Shot%202021-11-11%20at%202.23.01%20AM.png" alt="" />
+<img src="31.png" alt="" />
 </figure>
 
 <figure>
-<img src="Screen%20Shot%202021-11-11%20at%202.10.10%20AM.png" alt="" />
+<img src="32.png" alt="" />
 </figure>
 
 <h2><em>Part II: User Authentication</em></h2>
@@ -348,19 +348,19 @@ roles: [ { role: &quot;readWrite&quot;, db: &quot;ACC&quot; },
 <h2><em>Admin account –</em></h2>
 
 <figure>
-<img src="Screen%20Shot%202021-11-04%20at%2012.39.58%20AM.png" alt="" />
+<img src="33.png" alt="" />
 </figure>
 
 <h2><em>Enable authentication</em></h2>
 
 <figure>
-<img src="Screen%20Shot%202021-11-04%20at%2012.43.28%20AM.png" alt="" />
+<img src="34.png" alt="" />
 </figure>
 
 <h2><em>CRUD code example</em></h2>
 
 <figure>
-<img src="Picture1.jpg" alt="" />
+<img src="35.png" alt="" />
 </figure>
 
 <p>from pymongo import MongoClient</p>
@@ -434,7 +434,7 @@ def create(self, data):
 <p>Display the data</p>
 
 <figure>
-<img src="Picture1.png" alt="" />
+<img src="35.png" alt="" />
 </figure>
 
 <p><em>This case you’ll be using dash core components to display any components like buttons or radio</em>. <em>Also use the dash table from Dash to display in HTML, below is the radio button. Every component must have an ID to be called from the @app callback.</em> one callback per ID. Call back is a persistence feature that constantly updates the HTML. This is consider_ <em>the decoration for the function below it. It takes input data,</em> <em>or button</em> <em>click with a button label or value.</em></p>
