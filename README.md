@@ -280,7 +280,7 @@ roles: [ { role: &quot;readWrite&quot;, db: &quot;ACC&quot; },
 <p><em>MongoClient(). Is what is used to make the connection. In the below there is no authentication on a simple database with the collection named Emails. It is printing the</em> <em>key :</em> <em>value pair.</em></p>
 
 <figure>
-<img src="Screen%20Shot%202021-11-19%20at%205.17.25%20AM.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/Screen%20Shot%202021-11-19%20at%205.17.25%20AM.png" alt="" />
 </figure>
 
 <h3></h3>
@@ -296,11 +296,11 @@ roles: [ { role: &quot;readWrite&quot;, db: &quot;ACC&quot; },
 </ol>
 
 <figure>
-<img src="21.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/21.png" alt="" />
 </figure>
 
 <figure>
-<img src="22.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/22.png" alt="" />
 </figure>
 
 <p><em>This is the CVS format you can import JSON into</em> <em>mongoDB</em></p>
@@ -312,41 +312,41 @@ roles: [ { role: &quot;readWrite&quot;, db: &quot;ACC&quot; },
 <h2><strong><em>Import CSV file using mongo DB import.</em></strong> _Notice I’m using mongo compass to verify the amount of documents examined and the query time.</h2>
 
 <figure>
-<img src="23.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/23.png" alt="" />
 </figure>
 
 <figure>
-<img src="24.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/24.png" alt="" />
 </figure>
 
 <figure>
-<img src="25.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/25.png" alt="" />
 </figure>
 
 <figure>
-<img src="26.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/26.png" alt="" />
 </figure>
 
 <figure>
-<img src="27.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/27.png" alt="" />
 </figure>
 
 <figure>
-<img src="28.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/28.png" alt="" />
 </figure>
 
 <h2><em>Simple index and the Explain function</em>.</h2>
 
 <figure>
-<img src="30.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/30.png" alt="" />
 </figure>
 
 <figure>
-<img src="31.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/31.png" alt="" />
 </figure>
 
 <figure>
-<img src="32.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/32.png" alt="" />
 </figure>
 
 <h2><em>Part II: User Authentication</em></h2>
@@ -354,19 +354,19 @@ roles: [ { role: &quot;readWrite&quot;, db: &quot;ACC&quot; },
 <h2><em>Admin account –</em></h2>
 
 <figure>
-<img src="33.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/33.png" alt="" />
 </figure>
 
 <h2><em>Enable authentication</em></h2>
 
 <figure>
-<img src="34.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/34.png" alt="" />
 </figure>
 
 <h2><em>CRUD code example</em></h2>
 
 <figure>
-<img src="35.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/%2035.png" alt="" />
 </figure>
 
 <p>from pymongo import MongoClient</p>
@@ -440,13 +440,13 @@ def create(self, data):
 <p>Display the data</p>
 
 <figure>
-<img src="35.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/%2035.png" alt="" />
 </figure>
 
 <p><em>This case you’ll be using dash core components to display any components like buttons or radio</em>. <em>Also use the dash table from Dash to display in HTML, below is the radio button. Every component must have an ID to be called from the @app callback.</em> one callback per ID. Call back is a persistence feature that constantly updates the HTML. This is consider_ <em>the decoration for the function below it. It takes input data,</em> <em>or button</em> <em>click with a button label or value.</em></p>
 
 <figure>
-<img src="3.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/3.png" alt="" />
 </figure>
 
 <p><strong><em>https://dash.plotly.com/dash-core-components</em></strong></p>
@@ -454,13 +454,13 @@ def create(self, data):
 <p><em>This is what the data looks like coming from Jason and put it into</em> <em>pandas</em> <em>format.</em></p>
 
 <figure>
-<img src="5.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/5.png" alt="" />
 </figure>
 
 <p>_You can place all the HTML elements like the logo on top with a hyperlink in the button like you were on a website. <em>https://dash.plotly.com/dash-html-components</em> </p>
 
 <figure>
-<img src="6.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/6.png" alt="" />
 </figure>
 
 <p><strong><em>Filtering</em></strong></p>
@@ -470,7 +470,7 @@ def create(self, data):
 <p><strong><em>https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html</em></strong></p>
 
 <figure>
-<img src="7.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/7.png" alt="" />
 </figure>
 
 <p><em>This then gets passes Out and turns into the input for</em> <em>the viewport</em> _data take it and put it into the graph and map. </p>
@@ -482,17 +482,17 @@ def create(self, data):
 <p><a href="https://plotly.com/python/plotly-express/"><em>https://plotly.com/python/plotly-express/</em></a></p>
 
 <figure>
-<img src="8.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/8.png" alt="" />
 </figure>
 
 <figure>
-<img src="10.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/10.png" alt="" />
 </figure>
 
 <p><em>Sff</em> <em>is the pandas, dcc is dash core, px is express.</em></p>
 
 <figure>
-<img src="1.png2.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/1.png2.png" alt="" />
 </figure>
 
 <p>Above is the map which uses dash leafly <a href="https://dash-leaflet.herokuapp.com">https://dash-leaflet.herokuapp.com</a></p>
@@ -774,7 +774,7 @@ class AnimalShelter(object):
 <h2>Test</h2>
 
 <figure>
-<img src="13.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/13.png" alt="" />
 </figure>
 
 <p><em>There are a couple ways to test this one you can just run simple commands of create and read while looking at the output on the terminal of the IDE. You can also use the Python Unit test library. I have two examples of that below</em> <em>I have tested and ran successfully.</em> <em>The third car is a different method that I have not placed in this ReadMe.</em> <em>To test the map and graph data, it’s hard to see when somethings in the call back so you have to use your terminal in this</em> <em>case</em> <em>I adjusted the settings on Jupiter notebook to get a terminal output.</em></p>
@@ -784,9 +784,9 @@ class AnimalShelter(object):
 <h3>Screenshots</h3>
 
 <figure>
-<img src="14.png" alt="" />
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/15.png" alt="" />
 </figure>
-
+	
 <p>import unittest</p>
 
 <p>from module4 import AnimalShelter</p>
@@ -814,9 +814,9 @@ def test_create_list(self):
    self.assertRasies(Exception(&quot;Nothing to save, because data parameter is empty&quot;), AnimalShelter().create())
 </code></pre>
 
-<p>/ ![14](https://user-images.githubusercontent.com/75280131/146551487-8774de6c-09d7-492a-9751-e9c81ab5b1c3.png)
-  </p>
+<p>/ <img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/14%202.png" alt="" /></p>
 
+	
 <figure>
 <img width="468" alt="15" src="https://user-images.githubusercontent.com/75280131/146551358-75eaa1a5-4a49-4409-aa90-a62beedad335.png">
 
@@ -824,9 +824,7 @@ def test_create_list(self):
 </figure>
 
 <figure>
-![17](https://user-images.githubusercontent.com/75280131/146551402-018978b0-c6a7-4e91-b8ac-534fb36d6d5f.png)
-
-	
+<img src="https://github.com/Portfolio67/PythonCRUD-with-Ui-Dashboard/blob/main/src/17.png" alt="" />
 </figure>
 
 <h2>Contact</h2>
