@@ -26,15 +26,18 @@
 <p><em>The app must pull data from a CSV file into a mongo DB database. Python module must be used to create read update and delete the database. This database must also be password-protected. A separate file must have the functionality of retrieving the data from Mongo Via the python CRUD module to perform actions on that data. The data must be put into a pandas data frame which is a python library. A user interface must be made, and that user interface must have the logo of the company with a hyperlink, the name of the creator, user interaction buttons to perform sorting on the data, a database is then displayed on the Ui of the app, from my displayed data a chart along side</em> <em>a map must display the filter data.</em></p>
 
 <figure>
-![](images/filename s1.png)
+<img width="1308" alt="s1" src="https://user-images.githubusercontent.com/75280131/146550884-8578bba3-53ac-4bcc-8213-515e8824c023.png">
+
 </figure>
 
 <figure>
-<img src="s2.png" alt="" />
+<img width="1420" alt="s2" src="https://user-images.githubusercontent.com/75280131/146550773-9ddcf8c6-5707-4bc0-b8fd-dfd0822cf9c1.png">
+
 </figure>
 
 <figure>
-<img src="s3.png" alt="" />
+<img width="1431" alt="s3" src="https://user-images.githubusercontent.com/75280131/146550955-ab56523a-54a1-49a9-a9b6-5d60fa0a2a8b.png">
+
 </figure>
 
 <figure>
