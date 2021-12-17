@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>CRUD Python Ui SFlaten.txt</title>
+	<title>CRUD Python Ui SFlaten</title>
 </head>
 <body>
 <h1>README SFlaten</h1>
@@ -41,11 +41,14 @@
 </figure>
 
 <figure>
-<img src="s4.png" alt="" />
+
+<img width="1413" alt="s4" src="https://user-images.githubusercontent.com/75280131/146551061-b67e0ad6-1f88-462c-bb8e-2b8f5812e113.png">
+
 </figure>
 
 <figure>
-<img src="s5.png" alt="" />
+<img width="994" alt="s5" src="https://user-images.githubusercontent.com/75280131/146551119-379e4ab9-d375-42d3-b5a8-3b04d98722fd.png">
+
 </figure>
 
 <h2>****_Tools used to achieve functionality.**</h2>
@@ -811,14 +814,19 @@ def test_create_list(self):
    self.assertRasies(Exception(&quot;Nothing to save, because data parameter is empty&quot;), AnimalShelter().create())
 </code></pre>
 
-<p>/14 2.png</p>
+<p>/ ![14](https://user-images.githubusercontent.com/75280131/146551487-8774de6c-09d7-492a-9751-e9c81ab5b1c3.png)
+  </p>
 
 <figure>
-<img src="15.png" alt="" />
+<img width="468" alt="15" src="https://user-images.githubusercontent.com/75280131/146551358-75eaa1a5-4a49-4409-aa90-a62beedad335.png">
+
+	
 </figure>
 
 <figure>
-<img src="17.png" alt="" />
+![17](https://user-images.githubusercontent.com/75280131/146551402-018978b0-c6a7-4e91-b8ac-534fb36d6d5f.png)
+
+	
 </figure>
 
 <h2>Contact</h2>
