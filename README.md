@@ -12,6 +12,28 @@
 <p><em>This project takes up CVS database from a dog kennel resource management company, and places that data into an interactive sorting data chart with filters and maps.</em></p>
 
 <p><em>This project uses a python</em> <em>library called</em> <em>Pymongo</em> <em>in a python</em> <em>module that connects</em> at a_ <em>mongo database.</em> <em>From there the python module will Create a new data element in a dictionary form to be</em> <em>an</em> <em>input into the mongo database,</em> <em>then</em> <em>this python module will</em> <em>Read from that same database any item that is called</em> _after locating it. </p>
+	</p><div class="TOC">
+
+
+<ul>
+<li><a href="#readme-sflaten">README SFlaten</a>
+
+<ul>
+<li><a href="#about-the-projectcrud-with-python-and-mongodb">About the Project/CRUD with Python and MongoDB</a></li>
+<li><a href="#motivation">Motivation</a></li>
+<li><a href="#about-writing-code-for-a-client"><strong><em>About</em></strong> <strong><em>writing code for a client.</em></strong></a></li>
+<li><a href="#required-functionality"><strong><em>Required functionality</em></strong></a></li>
+<li><a href="#tools-used-to-achieve-functionality"><strong>Tools used to achieve functionality.</strong></a></li>
+<li><a href="#steps-taken-to-complete-the-project"><strong><em>Steps taken to complete the project</em></strong></a></li>
+<li><a href="#challenges"><strong><em>Challenges.</em></strong></a></li>
+<li><a href="#getting-started">Getting Started</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#usage">Usage</a></li>
+<li><a href="#code-example">Code Example</a></li>
+</ul></li>
+<li><a href="#screenshots">Screenshots</a>
+
+<ul>
 
 <h2>Motivation</h2>
 
