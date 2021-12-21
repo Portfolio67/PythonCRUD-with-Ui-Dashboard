@@ -1,11 +1,11 @@
-<!doctype html>
+
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>CRUD Python Ui SFlaten</title>
+	
 </head>
 <body>
-<h1>README SFlaten</h1>
+<h1>README CRUD Python Ui by SFlaten</h1>
 
 <h2>About the Project/CRUD with Python and MongoDB</h2>
 
